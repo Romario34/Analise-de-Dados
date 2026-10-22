@@ -2,7 +2,7 @@
 
 Projeto de portfólio de Análise de Dados usando **Python, Pandas e Matplotlib**. O objetivo é transformar dados de vendas em indicadores que ajudem a compreender o desempenho comercial.
 
-> **Aviso:** os dados incluídos são fictícios e foram criados exclusivamente para estudo. Não representam uma empresa real.
+
 
 ## Objetivos
 - Carregar e explorar dados de vendas em CSV.
@@ -12,7 +12,7 @@ Projeto de portfólio de Análise de Dados usando **Python, Pandas e Matplotlib*
 - Criar gráficos para apoiar a interpretação dos resultados.
 
 ## Tecnologias
-- Python 3.10 ou superior
+- Python 
 - Pandas
 - Matplotlib
 
@@ -32,34 +32,7 @@ analise_vendas_python/
     ├── faturamento_mensal.png
     ├── faturamento_por_produto.png
     └── faturamento_por_categoria.png
-```
 
-## Como executar
-
-### 1. Instale o Python
-Baixe em [python.org](https://www.python.org/downloads/).
-
-### 2. Abra o terminal na pasta do projeto
-
-Opcionalmente, crie e ative um ambiente virtual:
-
-**Windows**
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### 3. Instale as dependências
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Execute a análise
-```bash
-python analise_vendas.py
-```
-
-O programa imprime indicadores no terminal e salva os gráficos na pasta `graficos/`.
 
 ## Perguntas de negócio exploradas
 1. Qual é o faturamento total no período?
@@ -82,4 +55,4 @@ O programa imprime indicadores no terminal e salva os gráficos na pasta `grafic
 - Automatizar a atualização dos relatórios.
 
 ## Autor
-**Romário Brito** — projeto educacional de portfólio em Análise de Dados.
+**Romário Brito** — projeto educacional em Análise de Dados.
